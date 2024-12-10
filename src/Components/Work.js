@@ -14,9 +14,9 @@ const Work = () => {
             <i className="project-icon fas fa-code"></i>
             <span>Portfolio</span>
           </div>
-          <p>A responsive website built with React, HTML and CSS.</p>
+          <p>A responsive website built with React.</p>
           <a
-            href="https://github.com/yourusername/webstudio"
+            href="https://github.com/IsmailCodeForge/Portfolio-"
             target="_blank"
             rel="noopener noreferrer"
           >
