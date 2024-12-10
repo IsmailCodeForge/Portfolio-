@@ -1,0 +1,56 @@
+/* Header.css */
+body,
+html {
+  margin: 0; /* Убираем все внешние отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  width: 100%; /* Устанавливаем ширину на 100% экрана */
+  height: 100%; /* Устанавливаем высоту на 100% экрана */
+  box-sizing: border-box; /* Учитываем отступы в размерах */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px; /* Внутренние отступы для содержимого */
+  background-color: #282c34; /* Темный фон */
+  color: #ffffff; /* Белый текст */
+  width: 100%; /* На всю ширину страницы */
+  height: auto; /* Высота будет подстраиваться под содержимое */
+  box-sizing: border-box; /* Учитываем padding */
+}
+
+header img {
+  width: 180px; /* Увеличиваем размер фото */
+  height: 180px; /* Увеличиваем размер фото */
+  object-fit: cover; /* Увеличивает фото до заполнения круга, сохраняя пропорции */
+  object-position: center; /* Центрирует содержимое изображения */
+  border-radius: 50%; /* Круглое изображение */
+  border: 4px solid #ffffff; /* Толстая белая рамка */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Легкая тень для придания объема */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #61dafb; /* Синий при наведении */
+}
