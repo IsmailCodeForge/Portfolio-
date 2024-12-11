@@ -13,7 +13,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px; /* Внутренние отступы для содержимого */
-  background-color: #282c34; /* Темный фон */
+  background-color: #282c34;
   color: #ffffff; /* Белый текст */
   width: 100%; /* На всю ширину страницы */
   height: auto; /* Высота будет подстраиваться под содержимое */

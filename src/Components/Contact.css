@@ -3,35 +3,37 @@
   background-color: #eef2f3; /* Светлый фон для разделения */
   text-align: center;
   margin-top: 0px; /* Отступ сверху */
-  border-top: 1px solid #ddd; /* Линия для отделения */
 }
 
 .contact-section h2 {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #2c3e50; /* Темно-синий цвет заголовка */
   margin-bottom: 20px;
+  font-family: 'Arial', sans-serif; /* Общий стиль шрифта */
 }
 
 .contact-info {
   font-size: 1.2rem;
-  color: #7f8c8d;
-  line-height: 1.8;
+  color: #7f8c8d; /* Серый текст */
+  line-height: 1.8; /* Удобное чтение */
+  font-family: 'Arial', sans-serif; /* Шрифт как у проектов */
 }
 
 .contact-info p {
-  margin: 10px 0;
+  margin: 10px 0; /* Отступы между строками */
 }
 
 .contact-info strong {
-  color: #2c3e50;
+  color: #2c3e50; /* Выделенный текст */
 }
 
 .contact-info a {
   text-decoration: none; /* Убираем подчёркивание */
-  color: #2c3e50; /* Цвет текста */
+  color: #2c3e50; /* Цвет ссылки */
   font-weight: bold; /* Жирный текст */
+  transition: color 0.3s ease; /* Эффект перехода */
 }
 
 .contact-info a:hover {
-  color: #61dafb; /* Цвет при наведении */
+  color: #61dafb; /* Синий цвет при наведении */
 }
