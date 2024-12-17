@@ -1,39 +1,39 @@
 .contact-section {
   padding: 60px 20px;
-  background-color: #eef2f3; /* Светлый фон для разделения */
+  background-color: #eef2f3;
   text-align: center;
-  margin-top: 0px; /* Отступ сверху */
+  margin-top: 0px;
 }
 
 .contact-section h2 {
   font-size: 2.5rem;
-  color: #2c3e50; /* Темно-синий цвет заголовка */
+  color: #2c3e50;
   margin-bottom: 20px;
-  font-family: 'Arial', sans-serif; /* Общий стиль шрифта */
+  font-family: 'Arial', sans-serif;
 }
 
 .contact-info {
   font-size: 1.2rem;
-  color: #7f8c8d; /* Серый текст */
-  line-height: 1.8; /* Удобное чтение */
-  font-family: 'Arial', sans-serif; /* Шрифт как у проектов */
+  color: #7f8c8d;
+  line-height: 1.8;
+  font-family: 'Arial', sans-serif;
 }
 
 .contact-info p {
-  margin: 10px 0; /* Отступы между строками */
+  margin: 10px 0;
 }
 
 .contact-info strong {
-  color: #2c3e50; /* Выделенный текст */
+  color: #2c3e50;
 }
 
 .contact-info a {
-  text-decoration: none; /* Убираем подчёркивание */
-  color: #2c3e50; /* Цвет ссылки */
-  font-weight: bold; /* Жирный текст */
-  transition: color 0.3s ease; /* Эффект перехода */
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-  color: #61dafb; /* Синий цвет при наведении */
+  color: #61dafb;
 }

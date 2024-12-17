@@ -1,20 +1,19 @@
-/* AboutMe.css */
 #about {
-  background-color: #f9f9f9; /* Светлый фон */
+  background-color: #f9f9f9;
   padding: 60px 20px;
   text-align: center;
 }
 
 .about-header h2 {
   font-size: 2.5rem;
-  color: #2c3e50; /* Темно-синий цвет */
+  color: #2c3e50;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .about-header p {
   font-size: 1.2rem;
-  color: #7f8c8d; /* Серый цвет */
+  color: #7f8c8d;
   margin-bottom: 30px;
 }
 
@@ -26,5 +25,5 @@
 }
 
 #about strong {
-  color: #000; /* Чёрный для выделения имени */
+  color: #000;
 }
